@@ -1,0 +1,22 @@
+/*values we can use in css (generally)
+  px=pixels
+  %=percentages
+  em=ems
+*/
+body {
+  background-color: rebeccapurple;
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 16px;
+}
+div{
+  width: 600px;
+  margin: 50px auto;
+/*auto automatically centers an element that has a width*/
+
+  /*margins go clockwise -- top, right, bottom, left. You could also type out margin-top etc, with values, and achieve the same results.
+
+  margin: 50px 25px 50px 25px;*/
+}
+h1{
+  font-size:150%;
+}
