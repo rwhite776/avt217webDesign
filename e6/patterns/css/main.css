@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+div{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+}
+.pattern1 .first{
+  background-color: red;
+  border-radius: 50%;
+
+}
+.pattern1 .second{
+  background-color: orange;
+}
+.pattern1 .third{
+  background-color: yellow;
+  border-radius: 50%;
+}
+.pattern1 .fourth{
+  background-color: green;
+}
+.pattern1 .fifth{
+  background-color: blue;
+  border-radius: 50%;
+}
+.pattern1 .sixth{
+  background-color: indigo;
+}
+.pattern1 .seventh{
+  background-color: purple;
+  border-radius: 50%;
+}
+
+
+
+
+.pattern2 .first{
+  background-color: red;
+  opacity: .5;
+  border-radius: 25%;
+  width: 50px;
+
+}
+.pattern2 .second{
+  background-color: orange;
+  border-radius: 50%
+}
+.pattern2 .third{
+  background-color: yellow;
+  opacity: .5;
+  border-radius: 25%;
+  width: 50px;
+}
+.pattern2 .fourth{
+  background-color: green;
+  border-radius: 50%
+}
+.pattern2 .fifth{
+  background-color: blue;
+  opacity: .5;
+  border-radius: 25%;
+  width: 50px;
+}
+.pattern2 .sixth{
+  background-color: indigo;
+  border-radius: 50%
+  margin:
+}
+.pattern2 .seventh{
+  background-color: purple;
+  opacity: .5;
+  border-radius: 25%;
+  width: 50px;
+}
+
+.pattern3 .first{
+  background-color: purple;
+  opacity: .5;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid red;
+
+}
+.pattern3 .second{
+  background-color: orange;
+  border-radius: 50%;
+}
+.pattern3 .third{
+  background-color: green;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid yellow;
+}
+.pattern3 .fourth{
+  background-color: green;
+  border-radius: 50%;
+}
+.pattern3 .fifth{
+  background-color: aqua;
+  opacity: .5;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid blue;
+}
+.pattern3 .sixth{
+  background-color: indigo;
+  border-radius: 50%;
+}
+.pattern3 .seventh{
+  background-color: purple;
+  opacity: .5;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid teal;
+}
+
+
+.pattern4 .first{
+  background-color: red;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid orange;
+
+}
+.pattern4 .second{
+  background-color: orange;
+  border-radius: 50%;
+  opacity: .8;
+  border: 10px solid red;
+}
+.pattern4 .third{
+  background-color: yellow;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid green;
+}
+.pattern4 .fourth{
+  background-color: green;
+  border-radius: 50%;
+  opacity: .8;
+  border: 10px solid blue;
+}
+.pattern4 .fifth{
+  background-color: blue;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid red;
+}
+.pattern4 .sixth{
+  background-color: indigo;
+  border-radius: 50%;
+  opacity: .8;
+  border: 10px solid green;
+}
+.pattern4 .seventh{
+  background-color: purple;
+  border-radius: 25%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid blue;
+}
+
+
+.pattern5 .first{
+  background-color: lime;
+  border-radius: 45%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid orange;
+
+}
+.pattern5 .second{
+  background-color: teal;
+  border-radius: 45%;
+  border: 10px solid red;
+}
+.pattern5 .third{
+  background-color: aqua;
+  border-radius: 45%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid green;
+}
+.pattern5 .fourth{
+  background-color: green;
+  border-radius: 50%;
+  border: 10px solid blue;
+}
+.pattern5 .fifth{
+  background-color: navy;
+  border-radius: 45%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid red;
+}
+.pattern5 .sixth{
+  background-color: indigo;
+  border-radius: 50%;
+  border: 10px solid green;
+}
+.pattern5 .seventh{
+  background-color: purple;
+  border-radius: 45%;
+  width: 200px;
+  margin: -30px;
+  border: 10px solid blue;
+}
