@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  background-color: #F67A93;
+}
+/* Position Options
+  static - default position
+  absolute - positions something in relation to the window or its position parent element
+  relative - positions relative to where it falls on the page
+  fixed - positions it and fixes it at that point, scroll does not matter
+*/
+div {
+  width: 200px;
+  height: 200px;
+}
+.relative {
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.relative2 {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+  top: 400px;
+  left: 800px;
+}
+.absolute {
+  background-color: aquamarine;
+  position: absolute;
+  top: 4000px;
+  left: 400px;
+}
+.absolute2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fixed {
+  background-color: firebrick;
+  position: fixed;
+  top: 200px;
+  left: 800px;
+}
+
+/* EXERCISE 8 CSS */
+/* has relative positioning to move the divs contained within */
+.container {
+  width: 0;
+  height: 0;
+  background-color: none;
+  position: relative;
+  left: 300px;
+}
+.left-circle, .right-circle, .heart {
+  background-color: #DF1111;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.left-circle {
+  border-radius: 100%;
+  top: 251px;
+  left: 230px;
+}
+.right-circle {
+  border-radius: 100%;
+  top: 251px;
+  left: 370px;
+}
+.heart {
+  transform: rotate(45deg);
+  top: 321px;
+  left: 300px;
+}
+.right-eye {
+  border-radius: 100%;
+  background-color: #CEECF6;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 300px;
+  left: 260px;
+}
+.right-iris {
+  border-radius: 100%;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  top: 320px;
+  left: 280px;
+  position: absolute;
+  border: 20px solid #28F2AE;
+}
+.left-eye {
+  border-radius: 100%;
+  background-color: #CEECF6;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 300px;
+  left: 400px;
+}
+.left-iris {
+  border-radius: 100%;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  top: 320px;
+  left: 420px;
+  position: absolute;
+  border: 20px solid #28F2AE;
+}
+.smile {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  border: solid 5px black;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  top: 350px;
+  left: 300px;
+}
+.right-leg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  border: solid 5px black;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  top: 514px;
+  left: 250px;
+  transform: rotate(120deg);
+}
+.left-leg {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  border: solid 5px black;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  top: 514px;
+  left: 390px;
+  transform: scaleX(-1) rotate(120deg);
+}
+.right-arm{
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  border: solid 5px black;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  top: 250px;
+  left: 140px;
+  transform: scaleX(-1) rotate(-45deg);
+}
+.left-arm{
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  border: solid 5px black;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  top: 400px;
+  left: 480px;
+  transform: scaleX(-1) rotate(120deg);
+}
