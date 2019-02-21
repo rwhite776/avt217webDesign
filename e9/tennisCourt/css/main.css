@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+div{
+  float: left
+}
+.top{
+  width: 500px;
+  height: 400px;
+}
+.bottom{
+  width: 500px;
+  height: 400px;
+}
+.vertical-long{
+  width: 100px;
+  height: 400px;
+  background-color: red;
+  border: 3px;
+}
+.horizontal-long{
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  border: 3px solid white;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 3px solid white;
+}
