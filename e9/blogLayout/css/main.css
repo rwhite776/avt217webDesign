@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 100px 50px 100px 50px;
+}
+div{
+}
+.title{
+  width: 800px;
+  height: 150px;
+  background-color: red;
+  border: 5px solid white;
+}
+.divider{
+  width: 800px;
+  height: 75px;
+  background-color: white;
+}
+.content{
+  width: 800px;
+  height: 600px;
+}
+.paragraphs{
+  width: 600px;
+  height: 550px;
+  background-color: red;
+  border: 5px solid white;
+  float: left;
+}
+.image{
+  width: 200px;
+  height: 275px;
+  background-color: red;
+  float: left;
+  border: 5px solid white;
+}
+.footer{
+  width: 600px;
+  height: 50px;
+  background-color: red;
+  border: 5px solid white;
+  float: left;
+}

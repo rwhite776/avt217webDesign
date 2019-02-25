@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 10px 350px 0px 350px;
+}
+div{
+  float: left;
+}
+.top{
+  float: none;
+}
+.header{
+  width: 600px;
+  height: 100px;
+  background-color:red;
+  border: 5px solid white;
+}
+.title{
+  width: 600px;
+  height:25px;
+  background-color:red;
+  border: 5px solid white;
+}
+.columns{
+  width: 600px;
+  height: 500px;
+  float: left;
+}
+.column{
+  width: 200px;
+  height: 500px;
+  background-color: red;
+  border: 5px solid white;
+}
+.footer{
+  width: 600px;
+  height: 100px;
+  background-color:red;
+  border: 5px solid white;
+}

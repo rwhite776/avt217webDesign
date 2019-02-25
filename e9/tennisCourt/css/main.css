@@ -6,7 +6,7 @@ body{
   margin: 0;
 }
 div{
-  float: left
+  float: left;
 }
 .top{
   width: 500px;
@@ -15,22 +15,25 @@ div{
 .bottom{
   width: 500px;
   height: 400px;
+  float: none;
 }
 .vertical-long{
   width: 100px;
   height: 400px;
   background-color: red;
-  border: 3px;
+  border: 1px;
+  float: left;
 }
 .horizontal-long{
   width: 400px;
   height: 200px;
   background-color: red;
-  border: 3px solid white;
+  border: 1px solid white;
+  float: left;
 }
 .box{
   width: 200px;
   height: 200px;
   background-color: red;
-  border: 3px solid white;
+  border: 1px solid white;
 }
