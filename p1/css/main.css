@@ -1,9 +1,26 @@
 body{
-background-color: #1F845F;
+background-color: #559374;
 margin: 200px;
 font-size: 200%;
 font-family: 'Playfair Display', serif;
 }
 p{
   text-align: center;
+}
+h1{
+  text-align: center;
+  font-weight: lighter;
+}
+a{
+  text-decoration: none;
+  color:#C7232E;
+}
+a:visited{
+  color: #3A3A3B;
+}
+a:hover{
+  transition: color .5s ease;
+  color: #85D0AA;
+  text-decoration: underline;
+
 }
