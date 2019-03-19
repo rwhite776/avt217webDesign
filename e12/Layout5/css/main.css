@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 100px 50px 50px 50px;
+}
+div{
+}
+.container{
+  width: 900px;
+  height: 100px;
+  line-height: 50%;
+}
+.title{
+  width: 600px;
+  height: 100px;
+  font-size: 65px;
+  line-height: 10%
+
+}
+.title2{
+  width: 600px;
+  height: 65px;
+  font-size: 65px;
+  line-height: 10%;
+}
+.tagline{
+  width: 600px;
+  height: 100px;
+  font-size: 65px;
+  LINE-HEIGHT: 10%;
+  float: left;
+}
+.author{
+  width: 125px;
+  height: 125px;
+  float: left;
+}
+.authorBreak{
+  width: 25px;
+  height:200px;
+  background-color: white;
+  float: left;
+}
+.authorName{
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  float: left;
+  line-height: 100%;
+}
+.chapter{
+  font-size: 35px;
+  font-weight: bold;
+}
+.bodyText{
+  width: 600px;
+  font-size: 20px;
+  float: left;
+
+}
+.empty{
+  width: 200px;
+  height: 400px;
+  background-color: white;
+}
+.titleIndent{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  float: left;
+}
