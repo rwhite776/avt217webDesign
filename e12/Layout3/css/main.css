@@ -33,16 +33,6 @@ div{
   margin: auto;
   text-align: center;
 }
-.author{
-  width: 125px;
-  height: 125px;
-}
-.authorBreak{
-  width: 25px;
-  height:200px;
-  background-color: white;
-  float: left;
-}
 .authorName{
   width: 200px;
   height: 50px;
@@ -59,11 +49,4 @@ div{
 .bodyText{
   width: 480px;
   margin: auto;
-  
-}
-.empty{
-  width: 200px;
-  height: 75px;
-  background-color: white;
-
 }
