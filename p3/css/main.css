@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+body
+{
+  margin: 0;
+  background-color: #9DA5CA;
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cuprum', sans-serif;
+}
+h1{
+  margin-top: 0;
+  font-size: 3.5em;
+}
+h2{font-size: 2em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.3em;}
+h5{font-size: 1em;}
+
+p{
+  line-height: 1.4em;
+  font-family: 'Domine', serif;
+}
+.rootContainer
+{
+  width: 90vw;
+  margin: 25px auto;
+}
+.backgroundColor
+{
+  width: 75vw;
+  background-color: #BDC4E4;
+}
+.title
+{
+  margin: auto;
+}
+.bodyText
+{
+ margin: auto;
+}
+.quoteContainer
+{
+  font-size: 19px;
+  width: 75vw;
+  margin: auto;
+}
+.quote
+{
+  margin: auto;
+}
