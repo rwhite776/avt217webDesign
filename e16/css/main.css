@@ -1,0 +1,71 @@
+body
+{
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.full
+{
+  width: 100vw;
+  height: 100vh;
+}
+#list-name
+{
+  background-color: whitesmoke;
+}
+#yeehaw-5
+{
+  transition: all 2s ease;
+}
+#yeehaw-4
+{
+  transition: all 1s ease;
+}
+#yeehaw-3
+{
+  transition: all 2s ease;
+}
+#yeehaw-2
+{
+  transition: all 2s ease;
+}
+#yeehaw-1
+{
+  transition: all 2s ease;
+}
+.tomato
+{
+  background-color: tomato;
+}
+.blue
+{
+  background-color: dodgerblue;
+}
+.black{
+  background-color: black;
+}
+.green
+{
+  background-color: #308A01;
+}
+.brown
+{
+  background-color: #683207;
+}
+
+h1
+{
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+  letter-spacing: 1px;
+  padding: 40vh 0 0 0;
+  font-family: 'Lato', sans-serif;
+  transition: all 1s ease;
+}
+span{
+    transition: all 1s ease;
+    cursor: pointer;
+}

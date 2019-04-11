@@ -4,7 +4,7 @@
 body
 {
   margin: 0;
-  background-color: #9DA5CA;
+  background-color: #E5DDF1;
   font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6{
@@ -27,11 +27,7 @@ p{
 {
   width: 90vw;
   margin: 25px auto;
-}
-.backgroundColor
-{
-  width: 75vw;
-  background-color: #BDC4E4;
+  background-color: #E5DDF1;
 }
 .title
 {
@@ -67,4 +63,83 @@ height: auto;
   width: 100%;
   height: 100px;
   background-color: #110E0E
+}
+.footerBlue
+{
+  width: 100%;
+  height: 150px;
+  background-color: #2B777A
+}
+
+
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: #E5DDF1;
+  }
+  .rootContainer{
+    width: 75vw;
+  }
+    h1{
+      margin-top: 0;
+      font-size: 4em;
+  }
+  .quoteContainer
+  {
+    font-size: 19px;
+    width: 50vw;
+    margin: auto;
+  }
+  img
+  {
+  width: 70vw;
+  height: auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body{
+  }
+    .rootContainer{
+      width: 60vw;
+    }
+    h1{
+      margin-top: 0;
+      font-size: 5em;
+    }
+    img
+    {
+    width: 55vw;
+    height: auto;
+    }
+    .quoteContainer
+    {
+      font-size: 19px;
+      width: 45vw;
+      margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: #E5DDF1;
+  }
+    .rootContainer{
+      width: 50vw;
+    }
+    h1{
+      margin-top: 0;
+      font-size: 6em;
+    }
+
+    img
+    {
+    width: 45vw;
+    height: auto;
+    }
+    .quoteContainer
+    {
+      font-size: 19px;
+      width: 40vw;
+      margin: auto;
+    }
 }
