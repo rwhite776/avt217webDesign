@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+}
+#container {
+	width: 100vw;
+	height: 90vh;
+	margin: 0 auto;
+}
+
+.random
+{
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
